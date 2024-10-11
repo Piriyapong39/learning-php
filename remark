@@ -1,0 +1,12 @@
+what is I learning today :
+
+2024-10-11:
+    - echo and print => echo for easy display but print is for return data like if..condition.. then print
+    - variables => $xxx
+    - constant => define("xxx", 1) cannot change value and type
+    - buit-in-funtion
+        1.  isset
+        2.  unset
+        3.  empty
+        4.  is_null
+        5.  var_dump
