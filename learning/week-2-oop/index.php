@@ -1,5 +1,5 @@
 <?php
-    
+require "./modules/employee-module.php"
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -9,6 +9,10 @@
     <title>OOP</title>
 </head>
 <body>
-    
+    <h2>Hi this is OOP concept</h2>
+    <?php 
+        $emp->setName("Azujito");
+        $emp->getName();
+    ?>
 </body>
 </html>
