@@ -1,12 +1,5 @@
 <?php 
-function greetUser(){
-    echo "Hello User";
-}
-
-function summary($a, $b){
-    return $a + $b;
-}
-
+include "./function/functions.php"
 ?>
 
 <!DOCTYPE html>
@@ -24,9 +17,12 @@ function summary($a, $b){
     <hr>
     <h1>Function with parameter</h1>
     <?php 
-        $a = 10;
-        $b = 5;
-        echo summary($a, $b);
+        sumaryTotal(1,2);
+    ?>
+    <hr>
+    <h1>Function with return</h1>
+    <?php 
+        echo checkMonth(1);
     ?>
 </body>
 </html>
